@@ -1,0 +1,15 @@
+/* Estils per a la taula */
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+/* Estil per al camp de cerca */
+#myInput {
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 8px;
+}
