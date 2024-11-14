@@ -1,23 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="ca">
 
 <head>
-    <title>Index</title>
+    <meta charset="UTF-8">
+    <title>Buscador en Taula</title>
+    <!-- Enllaça el fitxer CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <header>
+    <input type="text" id="myInput" onkeyup="filtrarTaula()" placeholder="Busca en la taula...">
+    <table id="myTable" border="">
+        <tr>
+            <th>Nom</th>
+            <th>Qui fa la ensenyansa</th>
+            <th>Data</th>
+        </tr>
 
-    </header>
 
-    <main>
-        <table>
-            
-        </table>
-    </main>
-
-    <footer>
-
-    </footer>
+        <tr>
+            <td><a href="Comunitat.html">Comunitat</a></td>
+            <td>Elena Batlle</td>
+            <td>31/10/2024</td>
+        </tr>
+        <tr>
+            <td><a href="Evangeli.html">Evangeli</a></td>
+            <td>Dani Samper</td>
+            <td>6/11/2024</td>
+        </tr>
+    </table>
 </body>
+
 </html>
